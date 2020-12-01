@@ -6,4 +6,3 @@ for($i=3;$i<$n;$i++){
 }
 $out=$fib[$n-1];
 echo "$out" . "\n";
-?>

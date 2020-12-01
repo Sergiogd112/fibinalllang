@@ -5,6 +5,7 @@ Fibonchay implementation in as many languages as posible
 ## Done in
 - [CPP](fib.cpp)
 
+<<<<<<< HEAD
 ```cpp
 #include <iostream>
 
@@ -86,3 +87,19 @@ console.log(fib(40));
 - [C](fib.c)
 - [Haskell](fib.hs)
 - [Scala](fib.scala)
+=======
+* [C++](fib.cpp)
+* [Java](fib.java)
+* [PHP](fib.php)
+* [Python](fib.py)
+* [TypeScript](fib.ts)
+
+## Missing
+
+* [Haskell](fib.hs)
+* [Scala]()
+* [Lua](fib.lua)
+* [Ruby](fib.ru)
+* [SQL](fib.sql)
+* [Bash](fib.sh)
+>>>>>>> 0c9e73475dfe360f06bed7d1f085a021ec24a69b

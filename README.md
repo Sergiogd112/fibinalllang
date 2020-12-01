@@ -5,13 +5,9 @@ Fibonchay implementation in as many languages as posible
 ## Done in
 
 * [C++](fib.cpp)
-
 * [Java](fib.java)
 * [PHP](fib.php)
 * [Python](fib.py)
-
-``
-
 * [TypeScript](fib.ts)
 
 ## Missing

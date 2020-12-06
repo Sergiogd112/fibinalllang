@@ -91,18 +91,6 @@ for n, lang in enumerate(lang_names):
         print("|" + " " * (tsize - 2) + "|")
         README=README.replace('@$@rm@$@',missel.replace('@$@1@$@',lang).replace('@$@2@$@',langs[lang]))
 
-    print("|" + "_" * (tsize - 2) + "|")
-    print("|" + " " * (tsize - 2) + "|")
-    maxl2 = max([len(x) for x in README.split("\n")])
-    print(
-        "\n".join(
-            [
-                "|" + Fore.CYAN + x.ljust(maxl2).center(tsize - 2) + Fore.RESET + "|"
-                for x in README.split("\n")
-            ]
-        )
-    )
-
 
 README=README.replace('@$@rd@$@\n\n\n\n\n','')
 README=README.replace('@$@rm@$@','')
